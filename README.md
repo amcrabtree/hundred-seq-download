@@ -1,5 +1,5 @@
-# hundred-seq-download
-Python script allowing the user to download hundreds of sequences directly from NCBI's database. 
+# download_seqs.py
+This Python script allows you to download hundreds of sequences directly from NCBI's database. 
 
 Do make sure you change the line of code to match your own personal email address so NCBI knows who you are. 
 
