@@ -11,7 +11,7 @@ import os
 # ask user for email (tells NCBI who they are)
 Entrez.email = input("Enter your email: \n")
 # ask user for a csv-formatted list of genbank IDs    
-seq_list = input("Paste accession numbers in csv format:\n").split(',')
+seq_list = input("Paste accession numbers (ex: \"M28353.1\") in csv format:\n").split(',')
 # ask user to choose what format they want
 choice = input("What format do you want? \n   \"1\" = nucleotide, genbank \n   \"2\" = nucleotide, fasta \n   \"3\" = protein, fasta \n")
 
